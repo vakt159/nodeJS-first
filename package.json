@@ -1,0 +1,24 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakt159/nodeJS-first.git"
+  },
+  "author": "Yermolenko Andriy PI-201",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakt159/nodeJS-first/issues"
+  },
+  "homepage": "https://github.com/vakt159/nodeJS-first#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jest": "^29.4.2",
+    "supertest": "^6.3.3"
+  }
+}
