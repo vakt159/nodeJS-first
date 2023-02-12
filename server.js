@@ -4,7 +4,7 @@ require('dotenv').config();
 const app = express();
 
 app.use("/test", (req, res) => {
-    res.send({message: 'pass!'});
+    res.send({message: process.env.HELLO});
     res.end();
 
 });
